@@ -1,6 +1,6 @@
 List Builder
 ============
-HTML5 iPad UI built on top of [Campaign Monitor's Ajax Subscription Form]: http://www.campaignmonitor.com/downloads/ajax-subscription-form/
+HTML5 iPad UI built on top of [Campaign Monitor's Ajax Subscription Form]: [http://www.campaignmonitor.com/downloads/ajax-subscription-form/]
 
 Meant to be a travel companion at trade shows and remote events to easily and quickly collect Names/Email addresses of interested parties.
 
