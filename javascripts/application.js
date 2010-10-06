@@ -50,7 +50,7 @@ $(function() {
           $("#theForm").hide(); // If successfully submitted hides the form
 
           var alert = $('#confirmation');
-          alert.show().animate({height: alert.outerHeight()}, 150);
+          alert.show().animate({height: alert.outerHeight()}, 100);
             window.setTimeout(function() {
               alert.slideUp();
             }, 4000);  // Shows "Thanks for subscribing" div
