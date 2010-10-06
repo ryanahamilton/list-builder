@@ -10,12 +10,11 @@ Details
 Coming Soon.
 
 
-
-
-
 Suggestions
 -----------
-Under Settings > General > Keyboard
+Replace /images/logo.png with your company/organization's logo.
+
+Under Settings > General > Keyboard:
 
 * Turn off Auto-Suggest
 * Turn off Auto-Capitalization
