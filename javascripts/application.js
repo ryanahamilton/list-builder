@@ -48,7 +48,13 @@ $(function() {
         else
         {
           $("#theForm").hide(); // If successfully submitted hides the form
-          $("#confirmation").slideDown("slow");  // Shows "Thanks for subscribing" div
+
+          var alert = $('#confirmation');
+          alert.show().animate({height: alert.outerHeight()}, 150);
+            window.setTimeout(function() {
+              alert.slideUp();
+            }, 4000);  // Shows "Thanks for subscribing" div
+
           $("#confirmation").tabIndex = -1;
           $("#confirmation").focus(); // For screen reader accessibility
           // Fire off Google Analytics fake pageview
