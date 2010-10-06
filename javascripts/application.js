@@ -47,16 +47,18 @@ $(function() {
         }
         else
         {
-          $("#theForm").hide(); // If successfully submitted hides the form
-
           var alert = $('#confirmation');
-          alert.show().animate({height: alert.outerHeight()}, 100);
+          alert.show().animate({height: alert.outerHeight()}, 50);
             window.setTimeout(function() {
               alert.slideUp();
             }, 4000);  // Shows "Thanks for subscribing" div
 
           $("#confirmation").tabIndex = -1;
           $("#confirmation").focus(); // For screen reader accessibility
+          $('#subForm').each (function(){
+            this.reset();
+          });
+
           // Fire off Google Analytics fake pageview
           //var pageTracker = _gat._getTracker("UA-XXXXX-X");
           //pageTracker._trackPageview("/newsletter_signup");
