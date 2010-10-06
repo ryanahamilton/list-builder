@@ -16,5 +16,9 @@ Replace /images/logo.png with your company/organization's logo.
 
 Under Settings > General > Keyboard:
 
-* Turn off Auto-Suggest
 * Turn off Auto-Capitalization
+
+Under Settings > Safari > AutoFill:
+
+* Turn off Use Contact Info
+* Turn off Names and Passwords
