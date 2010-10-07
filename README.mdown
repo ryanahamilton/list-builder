@@ -10,6 +10,8 @@ Details
 Coming Soon.
 
 
+Modal window uses defunkt's [Facebox](http://github.com/defunkt/facebox)
+
 Suggestions
 -----------
 Replace /images/logo.png with your company/organization's logo.

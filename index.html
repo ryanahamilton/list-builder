@@ -7,6 +7,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <link rel="stylesheet" href="/stylesheets/master.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/stylesheets/facebox.css" type="text/css" media="all" />
   </head>
   <body>
     <div id="confirmation" style="display: none;"><span>Thanks for subscribing!</span></div>
@@ -19,11 +20,15 @@
           <input type="text" name="cm-name" id="name" placeholder="First Last" /></li>
         <li><label for="xxxxx-xxxxx">Email</label>
           <input type="email" name="cm-xxxxx-xxxxx" id="xxxxx-xxxxx" placeholder="you@domain.com" /></li>
+        <li class="checkbox">
+          <input type="checkbox" name="" id="" /><label for="">I have read and accept the <a href="/docs/terms.html" rel="facebox">Terms</a> &amp; <a href="/docs/privacy.html" rel="facebox">Privacy</a> policies.</label>
+        </li>
         <li><input type="submit" value="Sign Me Up!" /></li>
       </ul>
     </form>
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/facebox.js"></script>
     <script type="text/javascript" src="/javascripts/application.js"></script>
   </body>
 </html>
