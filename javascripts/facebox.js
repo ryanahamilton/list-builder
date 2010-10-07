@@ -97,17 +97,17 @@
               <td class="tl"/><td class="b"/><td class="tr"/> \
             </tr> \
             <tr> \
-              <td class="b"/> \
+              <td class="b"><img src="/images/facebox/clear.gif" alt="" style="width:10px;" /></td> \
               <td class="body"> \
-                <div class="content"> \
-                </div> \
                 <div class="footer"> \
                   <a href="#" class="close"> \
                     <img src="/images/facebox/closelabel.gif" title="close" class="close_image" /> \
                   </a> \
                 </div> \
+                <div class="content"> \
+                </div> \
               </td> \
-              <td class="b"/> \
+              <td class="b"><img src="/images/facebox/clear.gif" alt="" style="width:10px;" /></td> \
             </tr> \
             <tr> \
               <td class="bl"/><td class="b"/><td class="br"/> \
@@ -128,7 +128,7 @@
         append('<div class="loading"><img src="'+$.facebox.settings.loadingImage+'"/></div>')
 
       $('#facebox').css({
-        top:  getPageScroll()[1] + (getPageHeight() / 10),
+        top: 20,
         left:  $(window).width() / 2 - 205
       }).show()
 

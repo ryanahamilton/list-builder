@@ -17,7 +17,7 @@ $(function() {
     // Hacking together id for email field
     // Replace the xxxxx below:
     // If your form action were http://mysiteaddress.createsend.com/t/r/s/abcde/, then you'd enter "abcde" below
-    var id = "xxxxx";
+    var id = "urludd";
     var emailId = id + "-" + id;
 
     // Validate email address with regex

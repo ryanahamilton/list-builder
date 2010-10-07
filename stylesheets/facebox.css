@@ -6,24 +6,32 @@
   background:url(/images/facebox/fbx-border-sprite.png) 0 0;
   width: 10px;
   height: 10px;
+  line-height: 10px;
+  overflow: hidden;
 }
 
 #facebox .tr {
   background:url(/images/facebox/fbx-border-sprite.png) -10px 0;
   width: 10px;
   height: 10px;
+  line-height: 10px;
+  overflow: hidden;
 }
 
 #facebox .bl {
   background:url(/images/facebox/fbx-border-sprite.png) -20px 0;
   width: 10px;
   height: 10px;
+  line-height: 10px;
+  overflow: hidden;
 }
 
 #facebox .br {
   background:url(/images/facebox/fbx-border-sprite.png) -30px 0;
   width: 10px;
   height: 10px;
+  line-height: 10px;
+  overflow: hidden;
 }
 
 #facebox {
@@ -53,11 +61,21 @@
   padding: 10px;
   background: #fff;
   width: 370px;
-  overflow: scroll;
+}
+
+#facebox .body h3 {
+  margin-bottom: 8px;
 }
 
 #facebox .body p {
   margin-bottom: 16px;
+}
+#facebox .body ul {
+  margin: 0 0 16px 20px;
+}
+#facebox .body ul li {
+  margin: 0 0 8px;
+  list-style-type: disc;
 }
 
 #facebox .loading {
@@ -74,9 +92,9 @@
 }
 
 #facebox .footer {
-  border-top: 1px solid #ddd;
-  padding-top: 5px;
-  margin-top: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
   text-align: right;
 }
 
